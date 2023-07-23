@@ -103,3 +103,7 @@ ENV/
 
 # checkpoint
 checkpoint
+
+.vscode
+*.ckpt
+*.jpeg

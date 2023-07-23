@@ -1,4 +1,8 @@
 from __future__ import print_function
+
+import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/Users/outlander/anaconda3/envs/style_transfer/lib/python3.11/site-packages/imageio_ffmpeg"
+
 import sys
 sys.path.insert(0, 'src')
 import transform, numpy as np, vgg, pdb, os
